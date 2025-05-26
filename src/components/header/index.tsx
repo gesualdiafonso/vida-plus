@@ -45,6 +45,7 @@ export default function Header() {
                             alt="Logo Funerária Vida Plus"
                             width={150}
                             height={150}
+                            onClick={menuToggle}
                             className="mx-auto transition-all duration-500 hover:scale-105"
                         />
                         <h1 className="hidden">Funerária Vida Plus</h1>
@@ -91,7 +92,11 @@ export default function Header() {
                     </div>
                     <div className="mt-8">
                         <h2 className="font-bold text-2xl">Entre em Contato</h2>
-                        <a href="#" className="block mt-2">numero</a>
+                        <div className="text-center mb-8 flex flex-col justify-center items-center gap-5">
+                            <a href="tel:+551499768-5642" className="mx-3 font-bold text-xl md:text-2xl hover:text-action hover:font-extrabold">(14) 99768-5642</a>
+                            <a href="tel:+551499768-5642" className="mx-3 font-bold text-xl md:text-2xl hover:text-action hover:font-extrabold">(14) 99672-1474</a>
+                            <a href="tel:+551499768-5642" className="mx-3 font-bold text-xl md:text-2xl hover:text-action hover:font-extrabold">(14) 13713-1879</a>
+                        </div>
                     </div>
                 </div>
             </div>
