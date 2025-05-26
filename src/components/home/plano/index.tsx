@@ -1,6 +1,6 @@
 import Container from "../../container";
 import Image from "next/image";
-import uniao from "../../../../../public/assets/images/fotos_500/uniao.jpg"
+import uniao from "../../../../public/assets/images/fotos_500/uniao.jpg"
 
 
 export default function Plano() {

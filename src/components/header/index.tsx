@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-import logo from '../../../../public/assets/images/logo/Logo.png'
+import logo from '../../../public/assets/images/logo/Logo.png'
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { MdNavigateNext } from "react-icons/md";
 import { useState } from "react";
@@ -67,9 +67,9 @@ export default function Header() {
             >
                 <nav className="flex flex-col gap-8 items-center text-3xl">
                     <Link href="/" onClick={menuToggle} className="hover:text-hover hover:underline">Home</Link>
-                    <Link href="/servicio" onClick={menuToggle} className="hover:text-hover hover:underline">Planos</Link>
+                    <Link href="/service" onClick={menuToggle} className="hover:text-hover hover:underline">Planos</Link>
                     <Link href="/about" onClick={menuToggle} className="hover:text-hover hover:underline">Sobre Nós</Link>
-                    <Link href="/about" onClick={menuToggle} className="hover:text-hover hover:underline">Contato</Link>
+                    <Link href="/contact" onClick={menuToggle} className="hover:text-hover hover:underline">Contato</Link>
                 </nav>
 
                 {/* Redes sociais e contato */}
