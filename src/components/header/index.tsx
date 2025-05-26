@@ -21,10 +21,20 @@ export default function Header() {
     return (
         <header className="relative z-50 bg-gradient-background bg-200 animate-gradient-background text-text h-auto text-center">
             {/* Título fixo no topo */}
-            <div className="z-50 relative">
+            <div className="z-50 relative flex flex-col md:flex-row justify-between items-center px-10 md:px-20 lg:px-32">
+                <a href="tel:+5514996721474">
+                    <span className="font-bold text-text uppercase text-2xl md:text-3xl lg:text-4xl font-montserrat">
+                        (14) 99672-1474
+                    </span>
+                </a>
                 <span className="font-bold text-text uppercase text-2xl md:text-3xl lg:text-4xl font-montserrat">
                     Atenção 24Hrs.
                 </span>
+                <a href="tel:+5514997685642">
+                    <span className="font-bold text-text uppercase text-2xl md:text-3xl lg:text-4xl font-montserrat">
+                        (14) 99768-5642
+                    </span>
+                </a>
             </div>
 
             <div className="flex flex-row justify-around items-center relative z-50">
