@@ -27,16 +27,16 @@ export default function Sobre (){
                     <h3 className='text-2xl md:text-3xl font-bold font-montserrat'>Mais de 400 Associados confiam na Vida Plus.</h3>
                     <div className='flex flex-col lg:flex-row font-montserrat w-ful md:gap-5 my-5 font-semibold'>
                         <div className='p-5 text-xl'>
-                            <h4>Urna mortuária já incluida em nosso plano.</h4>
+                            <h4>Urna mortuária padrão, varão visor.</h4>
                         </div>
                         <div className='p-5 text-xl text-start'>
-                            <h4>Orgamentação com Flores artificiais.</h4>
+                            <h4>Ornamentação com Flores artificiais.</h4>
                         </div>
                         <div className='p-5 text-xl text-start'>
-                            <h4>Traslado de até 200km percorrido.</h4>
+                            <h4>Traslado de até 200km percorrido ida e volta.</h4>
                         </div>
                         <div className='p-5 text-xl text-start'>
-                            <h4>Documentação e orientação para registro de óbito e sepultamento.</h4>
+                            <h4>Orientação para registro de óbito e sepultamento.</h4>
                         </div>
                         <div className='p-5 text-xl text-start'>
                             <h4>Velório completo com suporte em casa ou e nossas unidades.</h4>
