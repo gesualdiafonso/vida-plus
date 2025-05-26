@@ -9,8 +9,34 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#00a3ff",
+        secondary: "#0a57b2",
+        light: "#e8f7ff",
+        dark: "#0a1f3d",
+        hover: "#ffaa35",
+        action: "#fbbf6d",
+        text: "#f7feff"
+      },
+      backgroundImage: {
+        "gradient-background":
+          "linear-gradient(135deg, #00a3ff 0%, #0a57b2 100%)",
+      },
+      fontFamily: {
+        archivo: ["var(--font-archivo)"],
+        montserrat: ["var(--font-montserrat)"],
+      },
+      keyframes:{
+        "move-gradient": {
+          "0%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+          "100%": { backgroundPosition: "0% 50%" },
+        }
+      },
+      animation: {
+        "gradient-background": "move-gradient 15s ease infinite",
+      },
+      backgroundSize: {
+        "200": "200% 200%"
       },
     },
   },
