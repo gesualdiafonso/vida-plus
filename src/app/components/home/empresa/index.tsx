@@ -18,6 +18,9 @@ const cards = [
 export default function Empresa() {
     return(
         <section>
+            <div className="text-center font-bold text-primary px-10 lg:px-32">
+                <h3 className="text-2xl md:text-3xl lg:text-4xl">Com dois Velórios Completamente Equipados para atender a sua necessidade e de sua Familía</h3>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto px-4 py-10">
                 {cards.map((card, index) => (
                     <div

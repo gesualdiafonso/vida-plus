@@ -8,8 +8,8 @@ export default function Plano() {
         <section>
             <Container>
                 <div className="my-10">
-                    <h1 className="text-3xl font-semibold text-start italic font-montserrat">Plano Failiar Vida Plus</h1>
-                    <p className="text-lg text-start">Tranquilidade para você e sua familía!</p>
+                    <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold text-start italic font-montserrat text-secondary">Plano Familiar Vida Plus</h1>
+                    <p className="text-lg md:text-xl lg:text-2xl text-start">Tranquilidade para você e sua familía!</p>
                 </div>
                 <div className="flex flex-col lg:flex-row my-10 gap-10 lg:gap-20">
                     <div className="w-full h-full">
@@ -32,7 +32,7 @@ export default function Plano() {
                     </div>
                 </div>
                 <div className="my-10 text-center font-montserrat">
-                    <h3 className="text-2xl lg:text-4xl font-bold text-secondary">Você é associado a outro palno? Saiba que trabalhamos com transferencias, de maneira rapida e você sai com plano ativo imediatamente!</h3>
+                    <h3 className="text-2xl lg:text-4xl font-bold text-secondary">Você é associado a outro plano? Saiba que trabalhamos com transferencias, de maneira rápida e você sai com plano ativo imediatamente!</h3>
                 </div>
             </Container>
         </section>
