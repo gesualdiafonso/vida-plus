@@ -19,6 +19,9 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Funerária Vida Plus",
   description: "Serviço funerário com acolhimento e simplicidade.",
+  icons: {
+    icon: "public/assets/image/favicon_vida_plus.svg",
+  }
 };
 
 export default function RootLayout({
@@ -28,6 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-Br">
+      {/* <head>
+        <link rel="shortcut icon" href="public/assets/images/favicon_vida_plus.svg" type="image/x-icon" />
+      </head> */}
       <body
         className={`${archivo.variable} ${montserrat.variable} antialiased bg-light`}
       >
