@@ -20,7 +20,8 @@ export default {
       backgroundImage: {
         "gradient-background":
           "linear-gradient(135deg, #00a3ff 0%, #0a57b2 100%)",
-        "hero-background": "url('/assets/images/fotos_500/uniao.jpg')"
+        "hero-background": "url('/assets/images/fotos_500/uniao.jpg')",
+        "hero-about": "url('/assets/images/foto_funeraria/funeraria_ppanema.jpeg')",
       },
       fontFamily: {
         archivo: ["var(--font-archivo)"],
