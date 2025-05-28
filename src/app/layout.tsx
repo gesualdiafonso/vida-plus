@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "Funerária Vida Plus",
   description: "Serviço funerário com acolhimento e simplicidade.",
   icons: {
-    icon: "public/assets/image/favicon_vida_plus.svg",
+    icon: "public/assets/image/favicon_vida_plus.png",
   }
 };
 
