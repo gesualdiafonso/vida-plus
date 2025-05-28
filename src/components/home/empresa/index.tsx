@@ -18,7 +18,7 @@ const cards: CardProp[] = [
         id: 1,
         title: "Escritorio Paranapanema.",
         description: "Rua Juca Teodoro, 460-1, Próximo ao Asilo- Centro - Paranapanema - SP",
-        image: "/assets/images/foto_funeraria/escritorio_ppanema.jpg",
+        image: "/assets/images/foto_funeraria/funeraria_ppanema.jpeg",
         mapLink: "https://maps.app.goo.gl/UfKxbuFDvrmDBfzQA",
         embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d915.542336561574!2d-48.7268125242243!3d-23.3820901952862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c14ccec3eefe01%3A0xcb6bb8efa6d3830!2sR.%20Juc%C3%A1%20Teodoro%2C%2070-176%20-%20Centro%2C%20Paranapanema%20-%20SP%2C%2018720-000%2C%20Brasil!5e0!3m2!1spt-BR!2sar!4v1748258823078!5m2!1spt-BR!2sar" 
     },
