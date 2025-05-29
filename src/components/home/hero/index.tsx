@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
     return (
         <section className="relative w-full h-screen overflow-hidden group">
@@ -20,9 +22,9 @@ export default function Hero() {
                     <p className="mt-4 text-lg text-white">
                         Oferecemos serviços funerários com acolhimento e simplicidade.
                     </p>
-                    <button className="px-4 py-2 mt-4 text-lg text-white bg-blue-600 rounded hover:bg-blue-700">
-                        Saiba mais
-                    </button>
+                    <Link href='/service' className="px-4 py-2 mt-4 text-lg text-white bg-blue-600 rounded hover:bg-blue-700">
+                        Veja nossos Planos
+                    </Link>
                 </div>
             </div>
         </section>

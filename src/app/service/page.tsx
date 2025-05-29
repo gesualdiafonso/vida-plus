@@ -44,8 +44,8 @@ export default function Service(){
                             <p>Mais de 200 profissionais na região para atender aos nossos associados.</p>
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-center lg:flex-row gap-10 lg:gap-25 p-10">
-                        <div className="w-1/2 text-center">
+                    <div className="flex flex-col justify-center items-center lg:flex-row gap-10 lg:gap-25 lg:p-10">
+                        <div className="w-full md:w-1/2 text-center">
                             <Image 
                                     src={img1}
                                     alt="#"
@@ -54,7 +54,7 @@ export default function Service(){
                                     className="mx-auto rounded-2xl shadow-lg shadow-black/50 hover:shadow-black/70 transition-all duration-500 transform hover:scale-105"
                             />
                         </div>
-                        <div className="w-1/2 h-auto bg-light text-dark p-5 rounded-2xl shadow-lg shadow-black/50 hover:shadow-black/70 transition-all duration-500 transform hover:scale-105">
+                        <div className="w-full md:w-1/2 h-auto bg-light text-dark p-5 rounded-2xl shadow-lg shadow-black/50 hover:shadow-black/70 transition-all duration-500 transform hover:scale-105">
                             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold font-montserrat text-secondary">Você também conta com:</h3>
                             <div className="my-2 px-3">
                                 <p className="text-lg md:text-xl">• Fornecimento de equipamentos aos conavecentes sendo muletas e andadores.</p>
@@ -71,7 +71,7 @@ export default function Service(){
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-center lg:flex-row gap-10 lg:gap-15 px-3 my-5">
-                        <div className="w-1/2 h-auto px-2">
+                        <div className="w-full md:w-1/2 h-auto px-2">
                             <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold font-montserrat text-action">Outros serviços que você pode solicitar.</h3>
                             <div className="px-4">
                                 <p className="text-xl md:text-2xl my-3"><strong>Convênio com mais de 200 profissionais</strong> na região, para atender aos nossos associados nas prestações de serviços.</p>
@@ -82,7 +82,7 @@ export default function Service(){
                                 <button className="text-xl my-5 md:mx-5 h-auto bg-secondary px-5 py-3 rounded-3xl text-text hover:bg-gradient-background bg-200 animate-gradient-background transition-all duration-500">Quero ser Associado</button>
                             </div>
                         </div>
-                        <div className="w-1/2 text-center">
+                        <div className="w-full md:w-1/2 text-center">
                             <Image 
                                     src={img2}
                                     alt="#"
