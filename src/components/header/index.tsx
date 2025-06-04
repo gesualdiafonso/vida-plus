@@ -45,7 +45,6 @@ export default function Header() {
                             alt="Logo Funerária Vida Plus"
                             width={150}
                             height={150}
-                            onClick={menuToggle}
                             className="mx-auto transition-all duration-500 hover:scale-105"
                         />
                         <h1 className="hidden">Funerária Vida Plus</h1>
