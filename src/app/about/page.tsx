@@ -5,7 +5,7 @@ import nos from "../../../public/assets/images/fotos_ig/nos.jpg"
 export default function About(){
     return(
         <main>
-            <section className="bg-hero-about h-96 w-full bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center">
+            <section className="bg-hero-about h-96 w-full bg-no-repeat bg-cover bg-bottom bg-fixed flex flex-col justify-center items-center">
                 <div className="bg-secondary/60 w-full h-full flex justify-center items-center">
                     <h2 className=" p-5 text-4xl md:text-6xl text-white font-bold">
                         Sobre Nós

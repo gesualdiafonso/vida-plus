@@ -9,7 +9,7 @@ export default function Service(){
     return(
         <main>
             <Container>
-                <section className="font-montserrat bg-hero-background w-full bg-no-repeat bg-cover bg-center">
+                <section className="font-montserrat bg-hero-background w-full bg-no-repeat bg-cover bg-center bg-fixed">
                     <div className="flex flex-col justify-center items-center w-full h-[500px] bg-black/60">
                         <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-primary">Tranquilidade para você e sua família começa aqui.</h2>
                         <span className="text-lg md:text-xl lg:text-2xl w-2/3 text-center font-light text-text">Dentro do Plano você como <strong>TITULAR</strong> poderá até <strong>mais de 7 pessoas. Sendo Familiar ou não e sem limite de idade!</strong>.</span>
