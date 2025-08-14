@@ -3,7 +3,8 @@ import Image from "next/image";
 import React from "react"; 
 import img1 from "../../../public/assets/images/fotos_ig/alegria.jpg";
 import img2 from "../../../public/assets/images/fotos_500/compartilhamento.jpg"
-import FormularioContato from "@/components/formularioContato";
+import Contato from "@/components/contato";
+
 
 
 export default function Service(){
@@ -146,10 +147,10 @@ export default function Service(){
                             </div>
                         </div>
                     </div>
-                    <section>
-                        <FormularioContato />
-                    </section>
                 </Container>
+            </section>
+            <section>
+                <Contato />
             </section>
         </main>
     )
