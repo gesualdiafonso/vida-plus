@@ -5,7 +5,7 @@ import { GiRotaryPhone } from "react-icons/gi";
 
 export default function Contact(){
     return(
-        <>
+        <main>
             <section>
                 <Container>
                     <div className="flex flex-col justify-center items-center my-20 gap-1">
@@ -26,6 +26,6 @@ export default function Contact(){
                     </div>
                 </Container>
             </section>
-        </>
+        </main>
     )
 }
