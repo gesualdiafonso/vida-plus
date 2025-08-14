@@ -3,9 +3,13 @@ import Image from "next/image";
 import React from "react"; 
 import img1 from "../../../public/assets/images/fotos_ig/alegria.jpg";
 import img2 from "../../../public/assets/images/fotos_500/compartilhamento.jpg"
+import FormularioContato from "@/components/formularioContato";
 
 
 export default function Service(){
+    const whatsappMessage = encodeURIComponent("Olá! Tenho interesse em ser associado do plano Familiar. Pdoe me enviar mais informações?");
+    const whatsappNumber = "5514997685642";
+    const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${whatsappMessage}`;
     return(
         <main>
             <Container>
@@ -14,7 +18,14 @@ export default function Service(){
                         <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-primary">Tranquilidade para você e sua família começa aqui.</h2>
                         <span className="text-lg md:text-xl lg:text-2xl w-2/3 text-center font-light text-text">Dentro do Plano você como <strong>TITULAR</strong> poderá até <strong>mais de 7 pessoas. Sendo Familiar ou não e sem limite de idade!</strong>.</span>
                         <div className="felx flex-col md:flex-row justify-center items-center gap-10 p-5 my-5 text-center">
-                            <button className="text-xl my-5 md:mx-5 h-auto bg-secondary px-5 py-3 rounded-3xl text-text hover:bg-gradient-background bg-200 animate-gradient-background transition-all duration-500">Quero ser Associado</button>
+                            <a 
+                                href={whatsappLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-xl my-5 md:mx-5 h-auto bg-secondary px-5 py-3 rounded-3xl text-text hover:bg-gradient-background bg-200 animate-gradient-background transition-all duration-500"
+                            >
+                                Quero ser Associado
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -135,6 +146,9 @@ export default function Service(){
                             </div>
                         </div>
                     </div>
+                    <section>
+                        <FormularioContato />
+                    </section>
                 </Container>
             </section>
         </main>
