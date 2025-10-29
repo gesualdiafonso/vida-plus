@@ -36,8 +36,8 @@ export default function Footer() {
                         <h3 className="font-bold text-hover mb-2">Mapa do Site</h3>
                         <ul className="space-y-1">
                             <li><Link href="/" className="hover:text-hover hover:underline">Home</Link></li>
-                            <li><Link href="/servicio" className="hover:text-hover hover:underline">Planos</Link></li>
-                            <li><Link href="/about" className="hover:text-hover hover:underline">Contato</Link></li>
+                            <li><Link href="/service" className="hover:text-hover hover:underline">Planos</Link></li>
+                            <li><Link href="/contact" className="hover:text-hover hover:underline">Contato</Link></li>
                         </ul>
                     </div>
 
