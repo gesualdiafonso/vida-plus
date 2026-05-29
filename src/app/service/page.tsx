@@ -3,6 +3,13 @@ import Image from "next/image";
 import React from "react"; 
 import img1 from "../../../public/assets/images/fotos_ig/alegria.jpg";
 import img2 from "../../../public/assets/images/fotos_500/compartilhamento.jpg"
+import velorioHolambra from "../../../public/assets/images/velorio/sala-holambra.jpg"
+import velorioParanapanema from "../../../public/assets/images/velorio/sala-panema.jpg"
+import sala1 from "../../../public/assets/images/velorio/velorio-sala.jpg"
+import sala2 from "../../../public/assets/images/velorio/velorio-sala-2.jpg"
+import frotasCarros from "../../../public/assets/images/velorio/carros-frota.jpg"
+import funerariaPanema from "../../../public/assets/images/velorio/funeraria-paranapanema.jpg"
+import cozinha from "../../../public/assets/images/velorio/cozinha-velorio-holambra.jpg"
 import Contato from "@/components/contato";
 
 
@@ -109,28 +116,20 @@ export default function Service(){
             <section>
                 <Container>
                     <div className="flex flex-col justify-center items-center p-10">
-                        <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-5">Conheça nossos Velorios!</h3>
+                        <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-5">Conheça nossos equipamentos!</h3>
                         <div className="p-4 max-w-6xl mx-auto">
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[300px] grid-flow-dense">
                                 <div className="row-span-2 col-span-2">
                                     <Image
-                                            src={img1}
+                                            src={velorioHolambra}
                                             alt="Velório com flores e decoração"
                                             width={400}
                                             height={400}
                                             className="w-full h-full object-cover rounded-xl"/>
                                 </div>
-                                <div className="row-span-1 col-span-1">
+                                <div className="row-span-1 col-span-2">
                                     <Image
-                                        src={img1}
-                                        alt="Velório com flores e decoração"
-                                        width={400}
-                                        height={400}
-                                        className="w-full h-full object-cover rounded-xl"/>
-                                </div>
-                                <div className="row-span-2">
-                                    <Image
-                                        src={img1}
+                                        src={velorioParanapanema}
                                         alt="Velório com flores e decoração"
                                         width={400}
                                         height={400}
@@ -138,7 +137,39 @@ export default function Service(){
                                 </div>
                                 <div className="row-span-1">
                                     <Image
-                                        src={img1}
+                                        src={sala1}
+                                        alt="Velório com flores e decoração"
+                                        width={400}
+                                        height={400}
+                                        className="w-full h-full object-cover rounded-xl"/>
+                                </div>
+                                <div className="row-span-1">
+                                    <Image
+                                        src={sala2}
+                                        alt="Velório com flores e decoração"
+                                        width={400}
+                                        height={400}
+                                        className="w-full h-full object-cover rounded-xl"/>
+                                </div>
+                                <div className="row-span-1 col-span-3">
+                                    <Image
+                                        src={cozinha}
+                                        alt="Velório com flores e decoração"
+                                        width={400}
+                                        height={400}
+                                        className="w-full h-full object-cover rounded-xl"/>
+                                </div>
+                                <div className="row-span-1 col-span-1">
+                                    <Image
+                                        src={funerariaPanema}
+                                        alt="Velório com flores e decoração"
+                                        width={400}
+                                        height={400}
+                                        className="w-full h-full object-cover rounded-xl"/>
+                                </div>
+                                <div className="row-span-1 col-span-4">
+                                    <Image
+                                        src={frotasCarros}
                                         alt="Velório com flores e decoração"
                                         width={400}
                                         height={400}

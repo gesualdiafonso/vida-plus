@@ -55,12 +55,14 @@ export default function About(){
                     </div>
                 </Container>
             </div>
-            <div className="p-10 md:p-20 lg:px-40  rounded-2xl text-dark">
-                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold" >Nosso Objetivo...</h3>
-                <p className="text-lg md:text-xl"> 
-                    Estar presente <strong className="text-hover">com leveza e compaixão</strong>, ajudando a transfomrar um momento de dor em um gesto de amor. Queremos que cada família atendida sinta que foi cuidado com <strong className="text-hover">respeito, empatia e simplicidade.</strong>
-                </p>
-            </div>
+            <section className="bg-hero-about h-96 w-full bg-no-repeat bg-cover bg-bottom bg-fixed flex flex-col justify-center items-center">
+                <div className="bg-secondary/60 w-full h-full flex flex-col justify-center items-center">
+                    <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-white" >Nosso Objetivo...</h3>
+                    <p className="text-lg md:text-xl w-1/2 text-white"> 
+                        Estar presente <strong className="text-hover">com leveza e compaixão</strong>, ajudando a transfomrar um momento de dor em um gesto de amor. Queremos que cada família atendida sinta que foi cuidado com <strong className="text-hover">respeito, empatia e simplicidade.</strong>
+                    </p>
+                </div>
+            </section>
         </main>
     )
 }
