@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Container from '../../container/index';
-import sobreNos from '/public/assets/images/fotos_ig/nos.jpg';
+import sobreNos from '../../../../public/assets/images/fotos_ig/nos.jpg'
 
 export default function Sobre (){
     return(
